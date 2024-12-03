@@ -1,6 +1,5 @@
 import { solve } from './historian-hysteria';
 
-
 describe('historian hysteria', () => {
   it('should find sum of diffs', async () => {
     // Given
@@ -13,9 +12,9 @@ describe('historian hysteria', () => {
       '3   3';
 
     // When
-    const result = await solve();
+    const result = await solve(input);
 
     // Then
     expect(result).toEqual(11)
   });
-});
+}); 
